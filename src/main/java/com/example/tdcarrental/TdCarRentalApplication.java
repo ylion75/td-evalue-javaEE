@@ -15,7 +15,7 @@ public class TdCarRentalApplication {
     @Bean
     public CommandLineRunner demo(){
         return (args) -> {
-            System.out.println("hello");
+            System.out.println("Démarrage du programme");
         };
     }
 
